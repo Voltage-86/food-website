@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found - 404 Error</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .error-container {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .video-container {
+            width: 100%;
+            max-width: 560px;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <h1>Oops! Page Not Found</h1>
+        <p>The page you were looking for doesn't exist yet.</p>
+        <p>Here are some things you can try:</p>
+        <ul>
+            <li>Return to the <a href="index.html">homepage</a></li>
+            <li>Or watch this very interesting video of Rick Astley</li>
+        </ul>
+        <div class="video-container">
+            <video width="100%" controls autoplay>
+                <source src="404.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</body>
+</html>

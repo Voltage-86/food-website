@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valkyrie's Tavern</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-logo">
+                <a href="index.html"><img src="images/logo.png" alt="Restaurant Logo"></a>
+                <a href="index.html" class="navbar-title">Valkyrie's Tavern</a>
+            </div>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Menu</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Reservations</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="banner" style="background-image: url('images/banner.png');">
+        <div class="banner-overlay"></div>
+        <div class="banner-content">
+            <img class="banner-logo" src="images/logo2.png" alt="Restaurant Logo">
+            <h1 class="banner-title">Valkyrie's Tavern</h1>
+        </div>
+    </section>
+    <div class="welcome-text-container">
+        <h1 class="welcome-text">Welcome to Valkyrie's Tavern</h1>
+        <p class="restaurant-description">Immerse yourself in a dining experience like no other at our Viking themed restaurant. Transport yourself to the age of the Norse warriors as you feast on hearty meals and quench your thirst with our selection of Nordic-inspired drinks. With a welcoming atmosphere and a menu that honors the spirit of adventure, we invite you to embark on a culinary journey fit for a Viking!</p>
+    </div>
+    <div class="slideshow-container-wrapper">
+        <div class="slideshow-container">
+            <div class="slide">
+                <img src="images/slide1.png" alt="Slide 1">
+            </div>
+            <div class="slide">
+                <img src="images/slide2.png" alt="Slide 2">
+            </div>
+            <div class="slide">
+                <img src="images/slide3.png" alt="Slide 3">
+            </div>
+            <a class="prev" onclick="prevSlide()">&#10094;</a>
+            <a class="next" onclick="nextSlide()">&#10095;</a>
+        </div>
+    </div>
+    <main>
+        <h2 class="feature-title">Our Features</h2>
+        <div class="feature-list">
+            <div class="feature-item">
+                <img src="images/helmet.png" alt="Viking Helmet">
+                <div class="feature-content">
+                    <h3 class="feature-name">Authentic Viking Ambiance</h3>
+                    <p class="feature-description">Step into our tavern and be transported to the realm of the Norse gods. Our decor, inspired by Viking longhouses, shields, and weaponry, creates an authentic atmosphere for your dining pleasure.</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <img src="images/horn.png" alt="Drinking Horn">
+                <div class="feature-content">
+                    <h3 class="feature-name">Nordic-Inspired Cuisine</h3>
+                    <p class="feature-description">Savor the flavors of the North with our menu crafted from traditional Viking recipes and modern culinary techniques. From hearty stews to succulent roasted meats, our dishes are fit for the mightiest warriors.</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <img src="images/performance.png" alt="Viking Performance">
+                <div class="feature-content">
+                    <h3 class="feature-name">Live Entertainment</h3>
+                    <p class="feature-description">Enjoy live performances by Viking skalds, musicians, and storytellers as you dine. Let the echoes of ancient sagas and battle hymns accompany your meal, adding to the immersive experience of Valkyrie's Tavern.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <img src="images/logo.png" alt="Footer Logo" class="footer-logo">
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Menu</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Reservations</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer-line"></div>
+        <p class="copyright">&copy; <span id="copyright-year"></span> Valkyrie's Tavern</p>
+    </footer>
+    <script src="slideshow.js"></script>
+    <script src="animation.js"></script>
+    <script src="copyright.js"></script>
+</body>
+</html>
